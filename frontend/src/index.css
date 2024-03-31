@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+    input[type="number"]::-webkit-inner-spin-button,
+    input[type="number"]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  }
+.signup-page {
+ 
+    backdrop-filter: blur(40px); /* Apply blur effect */
+}
+.App{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wp.frog.co/wp-content/uploads/2020/06/HBO_designmind_2.gif)
+
+}
+.my-bg {
+    background-image: url(https://wp.frog.co/wp-content/uploads/2020/06/HBO_designmind_2.gif);
+}
